@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:local="clr-namespace:SApp" x:Class="SApp.MainPage"
+             Title="Fretins Group">
+    <ContentPage.Content>
+        <StackLayout >
+             <Label TextColor="White" BackgroundColor="Teal" HorizontalOptions="Center" FontSize="20"/>
+          </StackLayout> 
+    </ContentPage.Content>
+
+    <StackLayout>
+        
+      <Label Text="Choose restaurant"
+             TextColor="Teal"
+
+             FontSize="Small"
+             VerticalOptions="Center"
+             HorizontalOptions="CenterAndExpand"
+
+
+
+        />
+        
+        <Button Text="Trestons st,32"
+               TextColor="White" 
+               BackgroundColor="Teal"
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="Center"
+               FontSize="Small"
+               WidthRequest="300"
+               HeightRequest="40"
+                BorderRadius=" 30"
+                   Clicked="BackButton_Click"
+
+                /> 
+
+       
+         <Button Text="Krowl st,18"
+               TextColor="White" 
+               BackgroundColor="Teal"
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="CenterAndExpand"
+               FontSize="Small"
+               WidthRequest="300"
+               HeightRequest="40"
+               BorderRadius=" 30"
+
+        />
+         <Button Text="Dewards st,27"
+               TextColor="White" 
+               BackgroundColor="Teal"
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="CenterAndExpand"
+               FontSize="Small"
+               WidthRequest="300"
+               HeightRequest="40"
+                 BorderRadius=" 30"
+        />
+         <Button Text="Wenton st,45"
+               TextColor="White" 
+               BackgroundColor="Teal"
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="CenterAndExpand"
+               FontSize="Small"
+               WidthRequest="300"
+               HeightRequest="40"
+                 BorderRadius=" 30"
+        />
+         <Button x:Name="Lewing" 
+            Text="Lewing st,4 "
+               TextColor="White" 
+               BackgroundColor="Teal"
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="CenterAndExpand"
+               FontSize="Small"
+               WidthRequest="300"
+               HeightRequest="40"
+               BorderRadius=" 30"
+               
+                
+        />
+       
+        
+     
+        
+    </StackLayout>
+     
+</ContentPage>
